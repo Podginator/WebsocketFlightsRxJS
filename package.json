@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-flight",
+  "version": "0.0.0",
+  "scripts": {
+    "execute": "ts-node ./src/index.ts",
+    "start-server": "ts-node ./api/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "lodash": "^4.17.21",
+    "rxjs": "7.5.7",
+    "ws": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/express-ws": "^3.0.1",
+    "@types/lodash": "^4.14.185",
+    "@types/node": "^18.8.3",
+    "@types/ws": "^8.5.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}
